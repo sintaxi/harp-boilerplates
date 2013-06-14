@@ -1,0 +1,17 @@
+{
+  "name": "harp-boilerplates",
+  "version": "0.1.0",
+  "description": "Library for ready Harp Boilerplates.",
+  "main": "lib/boilerplates.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "superagent": ""
+  },
+  "repository": "",
+  "author": "Brock Whitten <brock@chloi.io>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bin": { "hb": "./bin/hb" }
+}

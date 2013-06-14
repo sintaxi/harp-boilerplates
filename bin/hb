@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var hb = require("../")
+
+hb.search(process.argv[2], function(result){
+  console.log(JSON.stringify(result, null, 2))
+})
